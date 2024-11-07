@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+
+form{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    padding: 110px 35px;
+    border-radius: 25px;
+    flex-direction: colum;
+    width: 380px;
+    margin-top: -100px;
+    margin-left: 35%;
+}
+form p {
+    font-size: 25px; 
+    color: rgb(0, 0, 0); 
+    margin: 5; 
+    top: 20px; 
+
+}
+
+.div1{
+    position: relative; 
+    width: 300px;
+    margin-bottom: 30px;
+}
+input {
+    color: rgb(0, 0, 0);
+    padding: 20px 15px 20px 60px; 
+    width: 100%; 
+    border-radius: 25px; 
+    border: 0; 
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    outline: nome; 
+}
+
+input::placeholder {
+    font-size: 16px; 
+    color: #BBBBE2;
+}
+
+.boton{
+    
+    width: 300px;
+    padding: 20px 15px 20px 60px; 
+    background: linear-gradient(
+        90deg
+        rgb(143, 136, 133) 25%
+        rgb(35, 29, 26) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-size: 14px; 
+    cursor: pointer; 
+}
+.boton2{
+    position: relative; 
+    width: 300px;
+    margin-bottom: 30px;
+}
